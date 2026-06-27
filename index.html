@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio — Guilherme Ferreira Antunes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Mobile bar -->
+<header class="mobile-bar" id="mobileBar">
+  <span class="logo-m">Portfólio</span>
+  <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<div class="overlay" id="overlay"></div>
+
+<!-- Layout -->
+<div class="layout">
+
+  <!-- Sidebar -->
+  <nav class="sidebar" id="sidebar" aria-label="Navegação principal">
+    <div class="sidebar-logo">
+      Guilherme Ferreira Antunes
+      <span>Assistente de TI</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#sobre" class="nav-link active">
+        <span class="nav-icon">👤</span> Sobre Mim
+      </a></li>
+      <li><a href="#formacao" class="nav-link">
+        <span class="nav-icon">🎓</span> Formação
+      </a></li>
+      <li><a href="#portfolio" class="nav-link">
+        <span class="nav-icon">💼</span> Portfólio
+      </a></li>
+      <li><a href="#contato" class="nav-link">
+        <span class="nav-icon">✉️</span> Contato
+      </a></li>
+    </ul>
+    <p class="sidebar-footer">© 2026 Guilherme Ferreira Antunes</p>
+  </nav>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- ── Sobre Mim ── -->
+    <section id="sobre" class="section">
+      <div class="hero-grid reveal">
+        <div>
+          <p class="hero-terminal">
+            <span class="prompt">~/portfolio $</span>
+            <span id="typed-text"></span>
+            <span class="cursor"></span>
+          </p>
+          <p class="section-eyebrow">Sobre Mim</p>
+          <h1 class="section-title">Olá, eu sou<br /><em>Guilherme Ferreira Antunes</em></h1>
+          <p class="hero-desc">
+            Atualmente trabalho na área de TI na empresa Taurus Helmets, cursei 2 anos de técnico de TI na Tecpuc, e agora faço
+            faculdade de Engenharia de Software para no futuro conseguir virar um desenvolvedor, sou uma pessoa tranquila e que gosta
+            de estar sempre ativo fazendo algo.
+          </p>
+          <div class="chip-list">
+            <span class="chip">Fazenda Rio Grande, BR</span>
+            <span class="chip">Disponível para novas oportunidades</span>
+            <span class="chip">1+ anos de XP</span>
+          </div>
+        </div>
+        <div class="avatar-wrap">
+          <div class="avatar">🧑‍💻</div>
+        </div>
+      </div>
+
+      <div class="hobbies-grid">
+        <div class="hobby-card reveal">
+          <div class="hobby-icon">🎣</div>
+          <div class="hobby-title">Pescaria</div>
+          <div class="hobby-desc">Adora pescar desde em Rios até em Mar, meu sonho é um dia pescar na Amazônia.</div>
+        </div>
+        <div class="hobby-card reveal">
+          <div class="hobby-icon">🎵</div>
+          <div class="hobby-title">Música</div>
+          <div class="hobby-desc">Sou viciado em músicas, sempre que posso estou escutando algo.</div>
+        </div>
+        <div class="hobby-card reveal">
+          <div class="hobby-icon">🎮</div>
+          <div class="hobby-title">Esports</div>
+          <div class="hobby-desc">Adoro jogar videogames como um lazer, minha segunda maior distração é poder jogar.</div>
+        </div>
+        <div class="hobby-card reveal">
+          <div class="hobby-icon">🐾</div>
+          <div class="hobby-title">Animais</div>
+          <div class="hobby-desc">Sou apaixonado por animais, tenho 5 cães e gosto de todos os tipos de animais.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Formação ── -->
+    <section id="formacao" class="section">
+      <p class="section-eyebrow reveal">Trajetória Acadêmica</p>
+      <h2 class="section-title reveal">Formação &<br /><em>Conhecimentos</em></h2>
+
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-line"></div>
+          <div class="timeline-content">
+            <p class="t-period">2021 – 2022</p>
+            <p class="t-title">Técnico de TI</p>
+            <p class="t-inst">TECPUC - PR</p>
+            <p class="t-desc">Focado no aprendizado técnico da área, sendo uma porta para decidir no que me especializar.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-line"></div>
+          <div class="timeline-content">
+            <p class="t-period">2024 – 2025</p>
+            <p class="t-title">Técnico de ADM</p>
+            <p class="t-inst">CEEP - Fazenda Rio Grande</p>
+            <p class="t-desc">Técnico em Administração, foco em aprender na prática os principais conceitos da ADM e muito mais.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-line"></div>
+          <div class="timeline-content">
+            <p class="t-period">2025</p>
+            <p class="t-title">Engenharia de Software</p>
+            <p class="t-inst">UNINTER - PR</p>
+            <p class="t-desc">Iniciei meus estudos para me tornar um engenheiro de software e estou adorando.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="langs-section reveal">
+        <p class="langs-title">Idiomas</p>
+        <div class="lang-list">
+          <div class="lang-row">
+            <div class="lang-meta">
+              <span class="lang-name">Português</span>
+              <span class="lang-level">Nativo</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="--pct: 100%"></div></div>
+          </div>
+          <div class="lang-row">
+            <div class="lang-meta">
+              <span class="lang-name">Inglês</span>
+              <span class="lang-level">Intermediário</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="--pct: 65%"></div></div>
+          </div>
+          <div class="lang-row">
+            <div class="lang-meta">
+              <span class="lang-name">Espanhol</span>
+              <span class="lang-level">Iniciante</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="--pct: 35%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-row reveal">
+        <span class="skill-tag">JavaScript / TypeScript</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">Active Directory</span>
+        <span class="skill-tag">Git</span>
+      </div>
+    </section>
+
+    <!-- ── Portfólio ── -->
+    <section id="portfolio" class="section">
+      <p class="section-eyebrow reveal">Trabalhos & Projetos</p>
+      <h2 class="section-title reveal">Meu <em>Portfólio</em></h2>
+
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-thumb thumb-bg-1">🤖</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">C++</span>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+            <p class="project-name">TCC de Robótica</p>
+            <p class="project-desc">TCC focado em teoria de programação, usando C++.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Contato ── -->
+    <section id="contato" class="section">
+      <p class="section-eyebrow reveal">Vamos Conversar</p>
+      <h2 class="section-title reveal">Entre em <em>Contato</em></h2>
+
+      <div class="contact-wrap">
+        <div class="contact-info reveal">
+          <p class="contact-tagline">
+            Tenho interesse em projetos freelance, oportunidades de emprego
+            e colaborações criativas. Se tiver uma ideia ou proposta, fale comigo!
+          </p>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <div class="ci-icon">📍</div>
+              <span>Fazenda Rio Grande, PR — Brasil</span>
+            </li>
+            <li class="contact-item">
+              <div class="ci-icon">📧</div>
+              <a href="mailto:guilhermeantunes036@gmail.com">guilhermeantunes036@gmail.com</a>
+            </li>
+            <li class="contact-item">
+              <div class="ci-icon">💼</div>
+              <a href="https://www.linkedin.com/in/guilherme-ferreira-antunes-8b327b288/" target="_blank" rel="noopener noreferrer">
+                linkedin.com/in/guilherme-ferreira-antunes
+              </a>
+            </li>
+            <li class="contact-item">
+              <div class="ci-icon">🐙</div>
+              <a href="https://github.com/Guilherme036" target="_blank" rel="noopener noreferrer">
+                github.com/Guilherme036
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-card reveal">
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="nome">Nome</label>
+              <input class="form-control" type="text" id="nome" placeholder="Seu nome completo" />
+              <p class="error-msg" id="err-nome">Por favor, informe seu nome.</p>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">E-mail</label>
+              <input class="form-control" type="email" id="email" placeholder="voce@exemplo.com" />
+              <p class="error-msg" id="err-email">Informe um e-mail válido.</p>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="mensagem">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="5" placeholder="Olá Guilherme, queria conversar sobre…"></textarea>
+              <p class="error-msg" id="err-mensagem">Por favor, escreva sua mensagem.</p>
+            </div>
+            <button type="submit" class="btn-submit">Enviar Mensagem →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- Modal de sucesso -->
+<div class="modal-backdrop" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal-box">
+    <div class="modal-icon">🎉</div>
+    <h3 class="modal-title" id="modal-title">Mensagem Enviada!</h3>
+    <p class="modal-body">Obrigado pelo contato. Responderei em até 48 horas. Até logo!</p>
+    <button class="modal-close" id="modalClose">Fechar</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
